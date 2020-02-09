@@ -210,8 +210,6 @@ jobs:
       run: (cd tracing/test_static_max_level_features && cargo test)
     - name: "Test tracing-core no-std support"
       run: (cd tracing-attributes/test_async_await && cargo test)
-    - name: "Test nightly-only examples"
-      run: (cd nightly-examples && cargo test)
 
   style:
     # Check style.
